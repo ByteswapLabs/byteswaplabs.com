@@ -11,5 +11,5 @@ module.exports = {
   plugins: [
     require("flowbite/plugin") // add this
   ],
-  darkMode: 'class',
+  darkMode: 'media',
 }
