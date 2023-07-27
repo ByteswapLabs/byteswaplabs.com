@@ -25,5 +25,10 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      icon: `src/svgs/favicon2.svg`,
+    },
   }]
 };
