@@ -14,6 +14,11 @@ module.exports = {
     },
     __key: "images"
   }, {
+    resolve: 'gatsby-plugin-react-svg',
+    options: {
+      "path": "./src/svgs/"
+    }
+  }, {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
