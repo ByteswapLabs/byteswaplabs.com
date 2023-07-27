@@ -1,6 +1,6 @@
 import * as React from "react"
-import ByteswapLogo from "../svgs/justlogo.svg";
-import ByteswapLogoText from "../svgs/justtext.svg";
+import ByteswapLogo from "../svgs/byteswaplogo.svg";
+import ByteswapText from "../svgs/byteswaptext.svg";
 
 import { Button } from 'flowbite-react';
 import { MdEmail } from 'react-icons/md';
@@ -23,8 +23,8 @@ const IndexPage = () => {
           </Button>
         </div>
         <div className="md:col-start-2 row-start-2">
-          <ByteswapLogo className="absolute z-10 fill-[#007064] dark:fill-[#1ea699] w-full md:w-1/3 h-fit " />
-          <ByteswapLogoText className="absolute z-0 fill-[#007064] dark:fill-white w-full md:w-1/3 h-fit" />
+          <ByteswapLogo className="p-6 md:p-0 absolute z-10 fill-[#007064] dark:fill-[#1ea699] w-full md:w-1/3 h-fit " />
+          <ByteswapText className="p-6 md:p-0 absolute z-0 fill-[#007064] dark:fill-white w-full md:w-1/3 h-fit" />
         </div>
       </main>
   )
