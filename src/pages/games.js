@@ -18,17 +18,17 @@ const gamesNavClasses = {
     },
     games: {
       link: "mt-2",
-      icon: "fill-[#551ea6] ",
+      icon: "fill-[#9e6ee5] ",
       text: "pt-2 md:pt-3"
     },
     about: {
       link: "mt-4",
-      icon: "fill-[#a61e2b] px-2",
+      icon: "fill-[#e56e79] px-2",
       text: ""
     },
     socials: {
       link: "mt-4",
-      icon: "fill-[#6fa61e] px-1",
+      icon: "fill-[#b5e56e] px-1",
       text: ""
     }
 }
