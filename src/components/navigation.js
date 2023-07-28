@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import Byteswap from "../svgs/byteswap_color.svg";
 import ByteswapLogo from "../svgs/byteswaplogo_color.svg";
 import { GiRetroController } from 'react-icons/gi';
+import { MdAlternateEmail } from 'react-icons/md';
+import { FaBookAtlas } from 'react-icons/fa6';
 
 const Navigation = ({navClasses}) => {
   return (
@@ -18,12 +20,12 @@ const Navigation = ({navClasses}) => {
               <span className={`${navClasses.page.text} ${navClasses.games.text}`}>Games</span>
           </Link>
           <Link to="/about" className={`${navClasses.page.link} ${navClasses.about.link}`}>
-              <GiRetroController className={`${navClasses.page.icon} ${navClasses.about.icon}`} />
-              <span className={`${navClasses.page.text} ${navClasses.about.text}`}>Games</span>
+              <FaBookAtlas className={`${navClasses.page.icon} ${navClasses.about.icon}`} />
+              <span className={`${navClasses.page.text} ${navClasses.about.text}`}>About</span>
           </Link>
           <Link to="/socials" className={`${navClasses.page.link} ${navClasses.socials.link}`}>
-              <GiRetroController className={`${navClasses.page.icon} ${navClasses.socials.icon}`} />
-              <span className={`${navClasses.page.text} ${navClasses.socials.text}`}>Games</span>
+              <MdAlternateEmail className={`${navClasses.page.icon} ${navClasses.socials.icon}`} />
+              <span className={`${navClasses.page.text} ${navClasses.socials.text}`}>Socials</span>
           </Link>
         </div>
       </div>
