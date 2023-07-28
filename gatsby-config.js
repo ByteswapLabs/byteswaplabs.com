@@ -30,5 +30,10 @@ module.exports = {
     options: {
       icon: `src/svgs/favicon2.svg`,
     },
+  }, {
+    resolve: 'gatsby-plugin-html-attributes',
+    options: {
+      lang: 'en'
+    }
   }]
 };
