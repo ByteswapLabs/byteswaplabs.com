@@ -8,8 +8,8 @@ const Navigation = ({navClasses}) => {
     <div className={navClasses.container}>
         <div className={navClasses.byteswap.container}>
             <ByteswapJustLogo id="Byteswap Just Logo" aria-label="Byteswap Logo" className={navClasses.byteswap.justlogo} />
-            <ByteswapLogo id="Byteswap Logo" aria-label="Byteswap Logo" className={navClasses.byteswap.logo} />
-            <ByteswapText id="Byteswap Labs" aria-label="Byteswap Labs" className={navClasses.byteswap.text} />
+            <ByteswapLogo id="Byteswap Logo" aria-label="Byteswap Logo" className={`${navClasses.byteswap.logo} ${navClasses.byteswap.logoandtext}`} />
+            <ByteswapText id="Byteswap Labs" aria-label="Byteswap Labs" className={`${navClasses.byteswap.text} ${navClasses.byteswap.logoandtext}`} />
         </div>
     </div>
   )
