@@ -14,11 +14,26 @@ module.exports = {
     },
     __key: "images"
   }, {
+    resolve: 'gatsby-plugin-react-svg',
+    options: {
+      "path": "./src/svgs/"
+    }
+  }, {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      icon: `src/svgs/favicon2.svg`,
+    },
+  }, {
+    resolve: 'gatsby-plugin-html-attributes',
+    options: {
+      lang: 'en'
+    }
   }]
 };
