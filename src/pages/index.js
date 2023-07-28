@@ -20,7 +20,7 @@ const IndexPage = () => {
           <a aria-label="Twitter" className={linkClasses} href="https://twitter.com/byteswaplabs">
             <div className={iconContainerClasses}><AiOutlineTwitter aria-label="Twitter Icon" className={iconClasses}/></div>
           </a>
-          <a aria-label="Email" className={linkClasses} href="mailto:contact@byteswaplabs.com">
+          <a aria-label="Email" className={linkClasses} href="mailto:byteswaplabs@gmail.com">
             <div className={iconContainerClasses}><MdEmail aria-label="Email Icon" className={iconClasses}/></div>
           </a>
         </div>
