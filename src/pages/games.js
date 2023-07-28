@@ -4,31 +4,31 @@ import Navigation from "../components/navigation"
 
 const gamesNavClasses = {
     container: "bg-[#002233] h-20 md:h-full md:min-h-screen pt-2 md:pt-8 grid",
-    linkscontainer: "px-4 md:pl-0 pb-2 h-14 md:h-auto w-fit md:justify-self-end md:fixed flex md:grid",
+    linkscontainer: "px-4 md:pl-0 pb-2 h-14 md:h-auto w-screen md:w-fit md:justify-self-end md:fixed flex md:grid ",
     byteswap: {
         link: "justify-self-end",
         justlogo: "h-14 w-14 md:w-auto md:h-32 hidden md:max-lg:block",
         logoandtext: "h-14 md:h-32 md:w-auto md:max-lg:hidden",
     },
-    pagelinkscontainer: "flex ml-8 mr-4 md:flex-col",
+    pagelinkscontainer: "flex ml-8 mr-4 md:flex-col md:mt-8 grow md:grow-0",
     page: {
-      link: "mx-1 mt-4 justify-self-end grid grid-cols-2",
-      icon: "h-8 w-8 self-center justify-self-end",
-      text: "text-white max-sm:hidden text-2xl pt-2 pl-1 font-bold self-center justify-self-start"
+      link: "mx-1 justify-self-end grid grid-cols-2 md:mb-6 grow md:grow-0",
+      icon: "h-8 w-8 md:h-10 md:w-10 self-center justify-self-end",
+      text: "text-white max-sm:hidden text-2xl pl-1 md:pl-2 font-bold self-center justify-self-start"
     },
     games: {
-      link: "",
-      icon: "fill-[#551ea6]",
-      text: ""
+      link: "mt-2",
+      icon: "fill-[#551ea6] ",
+      text: "pt-2 md:pt-3"
     },
     about: {
-      link: "",
-      icon: "fill-[#a61e2b]",
+      link: "mt-4",
+      icon: "fill-[#a61e2b] px-2",
       text: ""
     },
     socials: {
-      link: "",
-      icon: "fill-[#6fa61e]",
+      link: "mt-4",
+      icon: "fill-[#6fa61e] px-1",
       text: ""
     }
 }
