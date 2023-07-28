@@ -12,17 +12,19 @@ const iconContainerClasses = "flex mx-6 my-4 w-10 h-10 rounded-lg bg-[#007064] d
 const iconClasses = "mx-auto place-self-center fill-white h-7 w-7";
 
 const indexNavClasses = {
-  container: "md:col-start-2 row-start-2",
+  container: "md:col-start-2 self-center",
   byteswap: {
-    container: "md:col-start-2 row-start-2",
-    logo: "p-6 md:p-0 absolute z-10 fill-[#007064] dark:fill-[#1ea699] w-full md:w-1/3 h-fit",
-    text: "p-6 md:p-0 absolute z-0 fill-[#002233] dark:fill-white w-full md:w-1/3 h-fit"
+    container: "h-48",
+    logoandtext: "p-6 md:p-0 absolute w-full md:w-1/3 h-48",
+    logo: "fill-[#007064] dark:fill-[#1ea699]",
+    text: "fill-[#002233] dark:fill-white",
+    justlogo: "hidden",
   }
 }
 
 const IndexPage = () => {
   return (
-      <main className="bg-[#ffeed0] dark:bg-[#002233] w-screen h-screen grid md:grid-cols-3 grid-rows-3">
+      <main className="bg-[#ffeed0] dark:bg-[#002233] w-screen h-screen grid md:grid-cols-3">
         <Navigation navClasses={indexNavClasses} />
       </main>
   )
