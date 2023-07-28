@@ -13,17 +13,17 @@ const Navigation = ({navClasses}) => {
             <Byteswap id="Byteswap Labs" aria-label="Byteswap Labs" className={navClasses.byteswap.logoandtext} />
         </Link>
         <div className={navClasses.pagelinkscontainer}>
-          <Link to="/games" className={navClasses.page.link}>
-              <GiRetroController className={navClasses.page.icon} />
-              <span className={navClasses.page.text}>Games</span>
+          <Link to="/games" className={`${navClasses.page.link} ${navClasses.games.link}`}>
+              <GiRetroController className={`${navClasses.page.icon} ${navClasses.games.icon}`} />
+              <span className={`${navClasses.page.text} ${navClasses.games.text}`}>Games</span>
           </Link>
-          <Link to="/games" className={navClasses.page.link}>
-              <GiRetroController className={navClasses.page.icon} />
-              <span className={navClasses.page.text}>Games</span>
+          <Link to="/about" className={`${navClasses.page.link} ${navClasses.about.link}`}>
+              <GiRetroController className={`${navClasses.page.icon} ${navClasses.about.icon}`} />
+              <span className={`${navClasses.page.text} ${navClasses.about.text}`}>Games</span>
           </Link>
-          <Link to="/games" className={navClasses.page.link}>
-              <GiRetroController className={navClasses.page.icon} />
-              <span className={navClasses.page.text}>Games</span>
+          <Link to="/socials" className={`${navClasses.page.link} ${navClasses.socials.link}`}>
+              <GiRetroController className={`${navClasses.page.icon} ${navClasses.socials.icon}`} />
+              <span className={`${navClasses.page.text} ${navClasses.socials.text}`}>Games</span>
           </Link>
         </div>
       </div>

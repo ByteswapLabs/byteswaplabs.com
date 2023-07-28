@@ -14,7 +14,22 @@ const gamesNavClasses = {
     page: {
       link: "mx-1 mt-4 justify-self-end grid grid-cols-2",
       icon: "h-8 w-8 self-center justify-self-end",
-      text: "max-sm:hidden text-2xl pt-2 pl-1 font-bold self-center justify-self-start"
+      text: "text-white max-sm:hidden text-2xl pt-2 pl-1 font-bold self-center justify-self-start"
+    },
+    games: {
+      link: "",
+      icon: "fill-[#551ea6]",
+      text: ""
+    },
+    about: {
+      link: "",
+      icon: "fill-[#a61e2b]",
+      text: ""
+    },
+    socials: {
+      link: "",
+      icon: "fill-[#6fa61e]",
+      text: ""
     }
 }
 
