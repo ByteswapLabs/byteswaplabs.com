@@ -3,7 +3,7 @@ import Navigation from "../components/navigation";
 
 const IndexPage = () => {
   return (
-      <main className="bg-[#ffeed0] dark:bg-[#002233] w-screen h-screen grid grid-cols-1">
+      <main className="bg-[#002233] w-screen h-screen grid grid-cols-1">
         <Navigation index />
       </main>
   )
