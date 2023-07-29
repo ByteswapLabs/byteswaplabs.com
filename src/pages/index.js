@@ -3,30 +3,30 @@ import Navigation from "../components/navigation";
 
 const indexNavClasses = {
   container: "md:max-lg:col-span-3 md:max-lg:col-start-2 lg:col-start-2 self-center",
-  linkscontainer: "",
+  linkscontainer: "grid grid-cols-1",
   byteswap: {
     logoandtext: "p-6 md:p-0 w-full",
     justlogo: "hidden",
   },
-  pagelinkscontainer: "",
+  pagelinkscontainer: "justify-self-center grid grid-cols-1 md:grid-cols-3",
   page: {
-    link: "mx-1 justify-self-end grid grid-cols-2 md:mb-6 grow md:grow-0",
-    icon: "h-8 w-8 md:h-10 md:w-10 self-center justify-self-end",
-    text: "text-white max-sm:hidden text-2xl pl-1 md:pl-2 font-bold self-center justify-self-start"
+    link: "my-4 md:grow",
+    icon: "h-16 w-16 md:w-10 inline md:self-center md:justify-self-start",
+    text: "pl-3 align-middle text-white text-4xl font-bold inline md:self-center md:justify-self-start"
   },
   games: {
     link: "mt-2",
-    icon: "fill-[#9e6ee5] ",
-    text: "pt-2 md:pt-3"
+    icon: "fill-[#9e6ee5]",
+    text: "pt-5 md:pt-3"
   },
   about: {
-    link: "mt-4",
-    icon: "fill-[#e56e79] px-2",
+    link: "",
+    icon: "fill-[#e56e79] px-3",
     text: ""
   },
   socials: {
-    link: "mt-4",
-    icon: "fill-[#b5e56e] px-1",
+    link: "",
+    icon: "fill-[#b5e56e] px-2",
     text: ""
   }
 }
