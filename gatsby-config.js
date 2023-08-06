@@ -58,6 +58,7 @@ module.exports = {
       options: {
         gatsbyRemarkPlugins: [
           `gatsby-remark-copy-linked-files`,
+          `gatsby-plugin-sharp`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -65,6 +66,7 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 640,
+              linkImagesToOriginal: false,
             },
           },
         ],
