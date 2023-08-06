@@ -1,11 +1,13 @@
-import * as React from "react"
-import ContentPage from "../../components/contentpage"
-import DragonContent from "../../content/dragon.mdx"
+import * as React from "react";
+import ContentPage from "../../components/contentpage";
+import DragonContent from "../../content/dragon.mdx";
 
 const DragonPage = () => (
-  <ContentPage><DragonContent /></ContentPage>
-)
+  <ContentPage>
+    <DragonContent />
+  </ContentPage>
+);
 
-export default DragonPage
+export default DragonPage;
 
-export const Head = () => <title>Dragon Sword</title>
+export const Head = () => <title>Dragon Sword</title>;

@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Byteswap Labs`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -13,41 +13,47 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        "name": "images",
-        "path": "./src/images/"
+        name: "images",
+        path: "./src/images/",
       },
-      __key: "images"
-    }, {
+      __key: "images",
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `content`,
         path: `${__dirname}/src/content`,
       },
-    }, {
-      resolve: 'gatsby-plugin-react-svg',
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
       options: {
-        "path": "./src/svgs/"
-      }
-    }, {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        "name": "pages",
-        "path": "./src/pages/"
+        path: "./src/svgs/",
       },
-      __key: "pages"
-    }, {
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: "./src/pages/",
+      },
+      __key: "pages",
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         icon: `src/svgs/favicon2.svg`,
       },
-    }, {
-      resolve: 'gatsby-plugin-html-attributes',
+    },
+    {
+      resolve: "gatsby-plugin-html-attributes",
       options: {
-        lang: 'en'
-      }
-    }, {
+        lang: "en",
+      },
+    },
+    {
       resolve: `gatsby-plugin-mdx`,
       options: {
         gatsbyRemarkPlugins: [
@@ -60,9 +66,9 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 640,
             },
-          }
-        ]
-      }
-    }
-  ]
+          },
+        ],
+      },
+    },
+  ],
 };
