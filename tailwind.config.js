@@ -7,8 +7,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-  darkMode: 'media',
-}
+  plugins: [require("@tailwindcss/typography")],
+  darkMode: "media",
+};
