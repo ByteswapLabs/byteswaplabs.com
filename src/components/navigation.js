@@ -7,7 +7,7 @@ import { MdAlternateEmail } from "react-icons/md";
 import { FaBookAtlas } from "react-icons/fa6";
 
 const contentNavClasses = {
-  container: "bg-[#002233] h-20 md:h-full md:min-h-screen pt-2 md:pt-8 grid",
+  container: "bg-[#003322] h-20 md:h-full md:min-h-screen pt-2 md:pt-8 grid",
   linkscontainer:
     "px-4 md:pl-0 pb-2 h-14 md:h-auto w-screen md:w-fit md:justify-self-end md:fixed flex md:grid ",
   byteswap: {
