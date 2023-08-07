@@ -29,6 +29,7 @@ const fullWidthCardClasses = `
   inline-block
   w-full
   relative
+  [&>h2]:text-white
   [&>h2]:text-4xl
   [&>h2]:my-2
   [&>h2]:mx-4
