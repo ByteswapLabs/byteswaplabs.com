@@ -23,7 +23,7 @@ const ContentPage = (props) => (
       <div className={contentClasses.prose}>{props.children}</div>
       <div className="bg-[#002233] text-white p-4 text-sm mt-[24px] h-[76px]">
         <p className="text-base font-bold">
-          © Byteswap Labs <span className="text-xs font-normal">2023</span>
+          © Byteswap Labs <span className="text-xs font-normal">LLC 2023</span>
         </p>
         <a href="mailto:byteswaplabs@gmail.com">byteswaplabs@gmail.com</a>
       </div>
