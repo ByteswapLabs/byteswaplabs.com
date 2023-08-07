@@ -62,10 +62,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 640,
+              // max width of content container we have images in
+              // max-w-3xl	max-width: 48rem; /* 768px */
+              maxWidth: 768,
               linkImagesToOriginal: false,
             },
           },
