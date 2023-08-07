@@ -23,8 +23,24 @@ const standardCardClasses = `
   [&>h3]:ml-2
 `;
 
-const Card = ({ url, children }) => (
-  <a href={url} className={standardCardClasses}>
+const fullWidthCardClasses = `
+  border
+  border-black
+  inline-block
+  w-full
+  relative
+  [&>h2]:text-4xl
+  [&>h2]:my-2
+  [&>h2]:mx-4
+  [&>h2]:absolute
+  [&>h2]:bottom-0
+`;
+
+const Card = ({ url, fullWidth, children }) => (
+  <a
+    href={url}
+    className={fullWidth ? fullWidthCardClasses : standardCardClasses}
+  >
     {children}
   </a>
 );
