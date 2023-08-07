@@ -13,7 +13,7 @@ const contentClasses = {
     max-md:min-h-[calc(100vh-180px)]
   `,
   prose:
-    "prose dark:prose-invert px-4 md:px-8 pt-2 md:pt-8 max-w-3xl min-h-[calc(100vh-180px)] md:min-h-[calc(100vh-100px)]",
+    "prose dark:prose-invert px-4 md:px-8 pt-4 md:pt-8 max-w-3xl min-h-[calc(100vh-180px)] md:min-h-[calc(100vh-100px)]",
 };
 
 const ContentPage = (props) => (
