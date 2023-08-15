@@ -25,7 +25,7 @@ const ContentPage = (props) => (
         <p className="text-base font-bold">
           © Byteswap Labs <span className="text-xs font-normal">LLC 2023</span>
         </p>
-        <a href="mailto:byteswaplabs@gmail.com">byteswaplabs@gmail.com</a>
+        <a href="mailto:info@byteswaplabs.com">info@byteswaplabs.com</a>
       </div>
     </div>
   </main>
