@@ -16,19 +16,23 @@ const contentClasses = {
     "prose dark:prose-invert px-4 md:px-8 pt-4 md:pt-8 max-w-3xl min-h-[calc(100vh-180px)] md:min-h-[calc(100vh-100px)]",
 };
 
-const ContentPage = (props) => (
-  <main className={contentClasses.page}>
-    <Navigation />
-    <div className={contentClasses.container}>
-      <div className={contentClasses.prose}>{props.children}</div>
-      <div className="bg-[#002233] text-white p-4 text-sm mt-[24px] h-[76px]">
-        <p className="text-base font-bold">
-          © Byteswap Labs <span className="text-xs font-normal">LLC 2023</span>
-        </p>
-        <a href="mailto:info@byteswaplabs.com">info@byteswaplabs.com</a>
+const ContentPage = (props) => {
+  const year = new Date().getFullYear();
+
+  return (
+    <main className={contentClasses.page}>
+      <Navigation />
+      <div className={contentClasses.container}>
+        <div className={contentClasses.prose}>{props.children}</div>
+        <div className="bg-[#002233] text-white p-4 text-sm mt-[24px] h-[76px]">
+          <p className="text-base font-bold">
+            © Byteswap Labs <span className="text-xs font-normal">{`LLC ${year}`}</span>
+          </p>
+          <a href="mailto:info@byteswaplabs.com">info@byteswaplabs.com</a>
+        </div>
       </div>
-    </div>
-  </main>
-);
+    </main>
+  );
+};
 
 export default ContentPage;
