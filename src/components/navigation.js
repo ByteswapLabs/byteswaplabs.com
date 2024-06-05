@@ -2,9 +2,8 @@ import * as React from "react";
 import { Link } from "gatsby";
 import Byteswap from "../svgs/byteswap_color.svg";
 import ByteswapLogo from "../svgs/byteswaplogo_color.svg";
-import { GiRetroController } from "react-icons/gi";
 import { MdAlternateEmail } from "react-icons/md";
-import { FaBookAtlas } from "react-icons/fa6";
+import { FaBookAtlas, FaGamepad } from "react-icons/fa6";
 
 const contentNavClasses = {
   container: "bg-[#003322] h-20 md:h-full md:min-h-screen pt-2 md:pt-8 grid",
@@ -47,26 +46,26 @@ const indexNavClasses = {
     justlogo: "hidden",
   },
   pagelinkscontainer:
-    "justify-self-center grid grid-cols-1 md:flex md:justify-center md:w-full md:mt-6",
+    "justify-self-center grid grid-cols-2 md:flex md:justify-center items-center md:w-full md:mt-6",
   page: {
     link: "my-4 md:mx-8",
     icon: "h-16 w-16 inline",
     text: "pl-3 align-middle text-white text-4xl font-bold inline md:pl-0",
   },
   games: {
-    link: "mt-2",
-    icon: "fill-[#9e6ee5]",
+    link: "mt-2 h-20",
+    icon: "fill-[#9e6ee5] h-20 mr-2",
     text: "pt-5 md:pl-2",
   },
   about: {
-    link: "",
-    icon: "fill-[#e56e79] px-3",
-    text: "",
+    link: "mt-2 h-20",
+    icon: "fill-[#e56e79] px-3 h-20",
+    text: "pt-5 md:pl-2",
   },
   socials: {
-    link: "",
-    icon: "fill-[#b5e56e] px-2",
-    text: "",
+    link: "mt-2 h-20",
+    icon: "fill-[#b5e56e] px-2 h-20",
+    text: "pt-5 md:pl-2 align-middle",
   },
 };
 
@@ -93,7 +92,7 @@ const Navigation = ({ index }) => {
             to="/games"
             className={`${navClasses.page.link} ${navClasses.games.link}`}
           >
-            <GiRetroController
+            <FaGamepad
               className={`${navClasses.page.icon} ${navClasses.games.icon}`}
             />
             <span
