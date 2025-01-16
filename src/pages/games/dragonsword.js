@@ -1,6 +1,6 @@
 import * as React from "react";
 import ContentPage from "../../components/contentpage";
-import DragonContent from "../../content/dragon.mdx";
+import DragonContent from "../../content/games/dragon.mdx";
 
 const DragonPage = () => (
   <ContentPage>
