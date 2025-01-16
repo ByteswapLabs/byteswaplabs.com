@@ -66,7 +66,7 @@ module.exports = {
               // max-w-3xl	max-width: 48rem; /* 768px */
               maxWidth: 768,
               linkImagesToOriginal: false,
-              backgroundColor: 'transparent',
+              backgroundColor: "transparent",
             },
           },
         ],
