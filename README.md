@@ -1,5 +1,11 @@
 # Byteswap Labs
 
+Ensure npm and dependeencies are installed
+```shell
+sudo apt install npm
+npm install
+```
+
 ```shell
 npm run develop
 ```
