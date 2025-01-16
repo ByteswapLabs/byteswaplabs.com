@@ -11,7 +11,7 @@ To run the sight:
 npm run develop
 ```
 
-Access via:
+To access the site open this URL in your browser:
 http://localhost:8000
 
 built using [Gatsby](https://www.gatsbyjs.com/)
