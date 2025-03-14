@@ -1,6 +1,6 @@
 import * as React from "react";
 import ContentPage from "../../components/contentpage";
-import TR1Content from "../../content/games/tr2.mdx";
+import TR2Content from "../../content/games/tr2.mdx";
 
 const Tr2Page = () => (
   <ContentPage>
